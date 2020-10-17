@@ -116,8 +116,8 @@ function updateSvelteFiles() {
 			]
 		},
 		{
-			view: 'routes/blog/index',
-			vars: [{ name: 'posts', type: '{ slug: string; title: string, html: any }[]' }],
+			view: 'routes/tasks/index',
+			vars: [{ name: 'tasks', type: '{ slug: string; title: string, html: any }[]' }],
 			contextModule: [
 				{
 					js: '.then(r => r.json())',
@@ -130,7 +130,7 @@ function updateSvelteFiles() {
 			]
 		},
 		{
-			view: 'routes/blog/[slug]',
+			view: 'routes/tasks/[slug]',
 			vars: [{ name: 'post', type: '{ slug: string; title: string, html: any }' }]
 		}
 	].forEach(updateSingleSvelteFile);

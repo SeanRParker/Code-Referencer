@@ -1,8 +1,8 @@
-import posts from './_posts.js';
+import tasks from './_tasks.js';
 
 const lookup = new Map();
-posts.forEach(post => {
-	lookup.set(post.slug, JSON.stringify(post));
+tasks.forEach(task => {
+	lookup.set(task.slug, JSON.stringify(task));
 });
 
 export function get(req, res, next) {
