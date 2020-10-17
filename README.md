@@ -37,3 +37,18 @@ I could either have content underneath the box explaining each task, or an â€œiâ
 3. syntax highlighting. This could be tricky with so many languages, but there's probably a prebuilt library for this.
 4. If there's a way to handle all of the login features with cookies instead, I'm all ears. There isn't really anything worth protecting behind a log in.
 
+### Running the project
+
+Once you have created the project, install dependencies and run the project in development mode:
+
+```bash
+cd my-app
+npm install # or yarn
+npm run dev
+```
+
+This will start the development server on [localhost:3000](http://localhost:3000). Open it and click around.
+
+You now have a fully functional Sapper project! To get started developing, consult [sapper.svelte.dev](https://sapper.svelte.dev).
+
+For more documentation on Svelte and Sapper, visit SAPPER_README.md.
