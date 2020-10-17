@@ -1,6 +1,10 @@
 # Code Referencer
 ## Quickly see how to do different tasks in other languages
 
+---
+### **IMPORTANT:** Read CONTRIBUTING.md before leaving comments or creating Pull Requests.
+---
+Sometimes you need answers for a simple coding concept. You know the syntax in your favorite programming language, but not in 
 **Examples of tasks**
 - assign a variable
 - display a value
