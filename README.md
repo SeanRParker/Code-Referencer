@@ -33,3 +33,7 @@ I could either have content underneath the box explaining each task, or an â€œiâ
 
 ### Post MVP features
 1. User can have preferred languages by default and those tabs appear first, with a dropdown at the end showing the remaining ones on smaller screens.
+2. Toggleable Dark theme. Start with light theme as the default. When user sign in eventually happens this option could be remembered and turn on when logged in.
+3. syntax highlighting. This could be tricky with so many languages, but there's probably a prebuilt library for this.
+4. If there's a way to handle all of the login features with cookies instead, I'm all ears. There isn't really anything worth protecting behind a log in.
+
