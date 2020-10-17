@@ -49,7 +49,7 @@ I could either have content underneath the box explaining each task, or an â€œiâ
 Once you have created the project, install dependencies and run the project in development mode:
 
 ```bash
-cd my-app
+cd site
 npm install # or yarn
 npm run dev
 ```
